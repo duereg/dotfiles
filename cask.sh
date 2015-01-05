@@ -9,6 +9,9 @@ apps=(
   firefox
   flux
   google-chrome
+  google-drive
+  google-hangouts
+  hipchat
   nvalt
   qlcolorcode
   qlmarkdown
@@ -16,7 +19,7 @@ apps=(
   sizeup
   skype
   spotify
-  sublime-text3
+  sublime-text
   tower
   transmission
   transmit

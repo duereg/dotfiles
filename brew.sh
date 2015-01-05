@@ -97,5 +97,15 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+<<<<<<< HEAD
+=======
+# Install Node.js. Note: this installs `npm` too, using the recommended
+# installation method.
+brew install node
+
+# Install Cask to install further applications
+brew install caskroom/cask/brew-cask
+
+>>>>>>> 4ad8d04 (update brew to install cask)
 # Remove outdated versions from the cellar.
 brew cleanup
