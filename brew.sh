@@ -91,5 +91,8 @@ brew install zopfli
 # installation method.
 brew install node
 
+# Install Cask to install further applications
+brew install caskroom/cask/brew-cask
+
 # Remove outdated versions from the cellar.
 brew cleanup
