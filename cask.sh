@@ -12,6 +12,7 @@ apps=(
   google-drive
   google-hangouts
   hipchat
+  mongodb
   nvalt
   qlcolorcode
   qlmarkdown
