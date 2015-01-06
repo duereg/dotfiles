@@ -8,6 +8,7 @@ apps=(
   dropbox
   firefox
   flux
+  gas-mask
   google-chrome
   google-drive
   google-hangouts
