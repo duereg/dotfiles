@@ -5,7 +5,7 @@
 # Ask for the administrator password upfront.
 sudo -v
 
-# Keep-alive: update existing `sudo` time stamp until `.osx` has finished.
+# Keep-alive: update existing `sudo` time stamp until the script has finished.
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Make sure we’re using the latest Homebrew.
@@ -43,8 +43,15 @@ brew install narwhal
 # Install more recent versions of some OS X tools.
 brew install vim --override-system-vi
 brew install homebrew/dupes/grep
+brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 brew install homebrew/php/php55 --with-gmp
+
+# Install font tools.
+brew tap bramstein/webfonttools
+brew install sfnt2woff
+brew install sfnt2woff-zopfli
+brew install woff2
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 brew install bfg
@@ -83,6 +90,7 @@ brew install pv
 brew install rename
 brew install rhino
 brew install speedtest_cli
+brew install ssh-copy-id
 brew install tree
 brew install webkit2png
 brew install zopfli
@@ -94,5 +102,4 @@ brew install node
 # Install Cask to install further applications
 brew install caskroom/cask/brew-cask
 
-# Remove outdated versions from the cellar.
 brew cleanup
