@@ -28,6 +28,7 @@ apps=(
   vagrant
   virtualbox
   vlc
+  vmware-fusion
 )
 
 # Install apps to /Applications
