@@ -5,6 +5,7 @@ apps=(
   1password
   appcleaner
   atom
+  boot2docker
   dropbox
   firefox
   flux
