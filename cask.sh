@@ -16,6 +16,7 @@ apps=(
   hipchat
   mongodb
   nvalt
+  paw
   qlcolorcode
   qlmarkdown
   screenflick
