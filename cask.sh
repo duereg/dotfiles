@@ -17,6 +17,7 @@ apps=(
   mongodb
   nvalt
   paw
+  postman
   qlcolorcode
   qlmarkdown
   screenflick
