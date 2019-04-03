@@ -9,7 +9,6 @@
     gas-mask
     google-drive-file-stream
     google-hangouts
-    hipchat
     mongodb
     nvalt
     paw
