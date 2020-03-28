@@ -147,7 +147,7 @@
 [commit]
 
 	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = true
+	# gpgsign = true
 
 [diff]
 
@@ -197,3 +197,14 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+[fetch]
+
+	prune = true
+
+[filter "lfs"]
+
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
