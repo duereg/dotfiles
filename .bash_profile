@@ -1,3 +1,13 @@
+#.bash_profile
+# ADD SSH KEY PASSWORD FROM MAC OS X KEYCHAIN
+##############################################
+/usr/bin/ssh-add -A
+##############################################
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
