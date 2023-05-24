@@ -1,12 +1,12 @@
 [alias]
 
-  co = checkout
-  ci = commit
-  st = status
-  br = branch
-  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
-  type = cat-file -t
-  dump = cat-file -p
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
 	undo-commit = reset --soft HEAD^
 
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
@@ -201,7 +201,7 @@
 [init]
 
 	templateDir = ~/.config/git/template/
-	
+
 [fetch]
 
 	prune = true
