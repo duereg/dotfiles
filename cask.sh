@@ -7,19 +7,13 @@
     firefox
     flux
     gas-mask
-    google-drive-file-stream
-    google-hangouts
-    mongodb
     nvalt
     paw
     postman
     qlcolorcode
     qlmarkdown
-    redis
     screenflick
     sizeup
-    skype
-    spotify
     sublime-text
     tower
     transmission
@@ -27,11 +21,10 @@
     vagrant
     virtualbox
     vlc
-    vmware-fusion
     visual-studio-code
   )
 
   # Install apps to /Applications
   # Default is: /Users/$user/Applications
   echo "installing apps..."
-  brew cask install --appdir="/Applications" ${apps[@]}
+  brew install --cask ${apps[@]} --appdir="/Applications" 

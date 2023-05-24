@@ -103,7 +103,7 @@ brew install zopfli
 brew install node
 
 # Install Cask to install further applications
-brew install caskroom/cask/brew-cask
+brew install homebrew/cask
 
 # Remove outdated versions from the cellar.
 brew cleanup
